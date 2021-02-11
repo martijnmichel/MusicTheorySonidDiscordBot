@@ -1,6 +1,6 @@
 const { Interval } = require("@tonaljs/tonal");
 module.exports = {
-  name: "*interval*",
+  name: "interval",
   description: "interval!",
   execute(msg, args) {
     if (!args.length)
